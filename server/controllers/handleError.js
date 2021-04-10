@@ -14,7 +14,7 @@ const handleError = async(errorBody,res) =>{
         secretCode
     } = errorBody;
 
-    if(process.env.SECRET_CODE !== secretCode.toString()) {
+    if(process.env.SECRET !== secretCode.toString()) {
         throw new Error("You need to be authenticated");
     } 
 
