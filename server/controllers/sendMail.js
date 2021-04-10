@@ -36,7 +36,7 @@ const sendEmail = async({
     });
     }
     catch(e){
-        throw new Error("Failed to send email");
+        throw new Error(e);
     }
 }
 
