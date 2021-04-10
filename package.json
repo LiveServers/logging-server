@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "npm test",
-    "start": "node server/app.js",
-    "build": "node server/app.js"
+    "start": "node server/app.js"
   },
   "keywords": [
     "logging-service"
